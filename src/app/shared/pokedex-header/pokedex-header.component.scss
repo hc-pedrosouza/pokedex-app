@@ -1,0 +1,12 @@
+@import '../../../config-scss/px-to-rem.scss';
+
+:host {
+    header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        //padding-top: 2.5rem;
+        padding-top: px-to-rem(40);
+    }
+}
