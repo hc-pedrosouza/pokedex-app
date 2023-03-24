@@ -5,7 +5,6 @@ $padding: px-to-rem(20);
     display: flex;
     justify-content: space-between;
     padding: $padding 0;
-    flex-wrap: wrap;
   .pokemon {
     display: flex;
     position: relative;
@@ -14,9 +13,6 @@ $padding: px-to-rem(20);
     border-radius: px-to-rem(10);
     background-color: var(--white);
     padding: $padding;
-    margin-bottom: px-to-rem(10);
-    text-decoration: none;
-    color: var(--primary-color);
 
     &__status {
       h2 {
@@ -24,7 +20,6 @@ $padding: px-to-rem(20);
         font-style: italic;
         font-weight: 700;
         margin-bottom: px-to-rem(10);
-        text-transform: capitalize;
       }
 
       ul {
@@ -59,7 +54,7 @@ $padding: px-to-rem(20);
         no-repeat;
 
       img {
-        width: px-to-rem(60);
+        width: px-to-rem(80);
       }
     }
   }
