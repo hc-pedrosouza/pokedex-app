@@ -9,12 +9,22 @@ import { PokeApiService } from 'src/app/service/poke-api.service';
 export class PokedexListComponent {
   constructor(private pokeApiService: PokeApiService) {}
 
-  public getAllPokemons: undefined;
+  private setAllPokemons: any;
+  public getAllPokemons: any;
 
   ngOnInit(): void {
     this.pokeApiService.apiListAllPokemons.subscribe((resp) => {
-      this.getAllPokemons = resp.results;
+      this.setAllPokemons = resp.results;
+      this.getAllPokemons = this.setAllPokemons;
       console.warn(this.getAllPokemons);
     });
+  }
+
+  public searchFiltered(value: string) {
+    const filter = this.setAllPokemons.filter((resp: any) => {
+      return !resp.name.indexOf(value.toLowerCase());
+    })
+    console.log(filter)
+    this.getAllPokemons = filter;
   }
 }
