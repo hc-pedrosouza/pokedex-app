@@ -2,7 +2,6 @@
 
 $padding: px-to-rem(20);
 :host {
-  .listing {
     display: flex;
     justify-content: space-between;
     padding: $padding 0;
@@ -64,5 +63,4 @@ $padding: px-to-rem(20);
       }
     }
   }
-}
 }
