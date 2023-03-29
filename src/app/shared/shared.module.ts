@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { PokedexHeaderComponent } from './pokedex-header/pokedex-header.component';
 import { PokedexSearchComponent } from './pokedex-search/pokedex-search.component';
 import { PokedexListComponent } from './pokedex-list/pokedex-list.component';
+import { RouterModule } from '@angular/router';
 
 
 
@@ -13,7 +14,8 @@ import { PokedexListComponent } from './pokedex-list/pokedex-list.component';
     PokedexListComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    RouterModule
   ],
   exports: [
     PokedexHeaderComponent,
