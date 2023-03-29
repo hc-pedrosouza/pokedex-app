@@ -11,12 +11,15 @@ export class PokedexListComponent {
 
   private setAllPokemons: any;
   public getAllPokemons: any;
+  public apiError: boolean = false
 
   ngOnInit(): void {
     this.pokeApiService.apiListAllPokemons.subscribe((resp) => {
       this.setAllPokemons = resp.results;
       this.getAllPokemons = this.setAllPokemons;
-      console.warn(this.getAllPokemons);
+    },
+    error => {
+      this.apiError = true;
     });
   }
 
