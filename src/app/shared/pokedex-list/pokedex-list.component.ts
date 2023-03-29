@@ -27,7 +27,6 @@ export class PokedexListComponent {
     const filter = this.setAllPokemons.filter((resp: any) => {
       return !resp.name.indexOf(value.toLowerCase());
     })
-    console.log(filter)
     this.getAllPokemons = filter;
   }
 }

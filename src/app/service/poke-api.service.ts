@@ -12,7 +12,6 @@ export class PokeApiService {
 
   get apiListAllPokemons(): Observable<any> {
     return this.http.get<any>(this.url).pipe(
-      //tap((resp) => resp),
       tap((resp) => {
         resp.results.map((respPokemons: any) => {
           this.apiGetPokemons(respPokemons.url).subscribe( resp => respPokemons.status = resp)
