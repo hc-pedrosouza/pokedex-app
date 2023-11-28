@@ -29,7 +29,9 @@ O PokedexApp te ajuda a buscar por Pokemons e visualizar informações detalhada
 ### Funcionalidades
 
 :heavy_check_mark: `Funcionalidade 1:` Visualizar lista de Pokemons.
+
 :heavy_check_mark: `Funcionalidade 2:` Pesquisar por seu Pokemon favorito.
+
 :heavy_check_mark: `Funcionalidade 3:` Ver informações detalhadas sobre os Pokemons.
 
 ### Ferramentas utilizadas
