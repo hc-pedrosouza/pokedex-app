@@ -46,7 +46,7 @@ O PokedexApp te ajuda a buscar por Pokemons e visualizar informações detalhada
 
 #### :leftwards_arrow_with_hook: Pré-requisitos
 
-1. [NodeJS 16.15 ou superior](https://nodejs.org/en/download/) - _Interpretador que permite executar JS fora do navegador_
+1. [NodeJS 16 ou superior](https://nodejs.org/en/download/) - _Interpretador que permite executar JS fora do navegador_
 2. [Angular 15 ou superior](https://angular.io/cli) _(npm install -g @angular/cli)_ - _Ferramenta de desenvolvimento web_
 
 #### :arrow_down: Baixando e Instalando
@@ -75,7 +75,7 @@ O PokedexApp te ajuda a buscar por Pokemons e visualizar informações detalhada
 2. Extraia o arquivo .zip
 3. Abra a pasta do extraida anteriormente no CMD/Terminal 
 1. No terminal:
-    - Digite `cd docker && docker compose up -d --build`
+    - Digite `docker compose up --build`
 
 ## :rocket: Executando
 

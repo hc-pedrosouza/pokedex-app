@@ -1,0 +1,12 @@
+version: '3'
+services:
+  pokedex-app:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    ports:
+      - target: 4200
+        published: 4200
+        protocol: tcp
+        mode: host
+    container_name: pokedex
