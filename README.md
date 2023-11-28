@@ -22,11 +22,7 @@
 
 ### Descrição
 
-O projeto nasceu durante uma migração de cliente, na qual existiam mais de 10.000 arquivos diversos em uma única pasta que precisavam ser separados.
-
-Move-by-name-in-CSV consiste em uma aplicação que moverá todos os arquivos listados em um CSV para uma pasta de destino.
-
-O projeto foi originado de um curso de Angular que realizei.
+O projeto foi proposto durante um curso de Angular 15.
 
 O PokedexApp te ajuda a buscar por Pokemons e visualizar informações detalhadas sobre eles.
 
